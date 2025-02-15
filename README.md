@@ -22,6 +22,8 @@ pip3 --version
 # Step 1: Create a directory for Lambda package
 mkdir lambda_package && cd lambda_package
 
+
+
 # Step 2: Install required Python dependencies
 pip3 install requests PyGithub cryptography -t .
 
